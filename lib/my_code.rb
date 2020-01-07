@@ -23,10 +23,3 @@ def reduce_to_total(arr, starting_point)
   total + sum 
 end
 
-def reduce_to_all_true(arr)
-  arr.reduce do |num| 
-    if num == true
-  end
-end
-end
-
