@@ -18,7 +18,6 @@ def map_to_square(arr)
 end
 
 def reduce_to_total(arr, starting_point)
-  binding.pry
-  sum = arr.reduce(:+)
+  arr.reduce(:+)
 end
 
