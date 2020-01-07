@@ -19,7 +19,6 @@ end
 
 def reduce_to_total(arr)
   sum = arr.reduce(:+)
-end
-  sum += starting_point
+  sum
 end
 
