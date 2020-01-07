@@ -24,5 +24,6 @@ def reduce_to_total(arr, starting_point)
 end
 
 def reduce_to_all_true(arr)
+  arr.reduce{|num| if num == true}
 end
 
