@@ -20,7 +20,7 @@ end
 def reduce_to_total(arr, starting_point)
   total = starting_point
   sum = arr.reduce(:+)
-  
+  total + sum 
 end
 
 def reduce_to_all_true(arr)
