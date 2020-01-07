@@ -17,7 +17,7 @@ def map_to_square(arr)
   arr.map {|num| num ** 2}
 end
 
-def reduce_to_total(arr, starting_point)
+def reduce_to_total(arr)
   sum = arr.reduce(:+)
   sum
 end
