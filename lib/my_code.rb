@@ -18,6 +18,7 @@ def map_to_square(arr)
 end
 
 def reduce_to_total(arr, starting_point)
-  arr.reduce(:+)
+  sum = arr.reduce(:+)
+  sum += starting_point
 end
 
